@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+}
+
+.container__right {
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+}
+
+.container__right .rank {
+    font-size: 35px;
+    font-weight: 700;
+    color: hsl(233, 8%, 79%);
+}
+
+@media (max-width: 375px) {    
+    .container__right .rank {
+        font-size: 28px;
+    }
+}

@@ -1,0 +1,16 @@
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.header img {
+    height: 40px;
+}
+
+.menuBtn {
+    margin-left: auto;
+    background: url('/public/assets/icon-menu.svg') no-repeat;
+    width: 40px;
+    height: 20px;
+    background-size: 40px 20px;
+}

@@ -1,0 +1,29 @@
+.nav {
+    margin-left: auto;
+    list-style: none;
+    display: flex;
+}
+
+.nav li {
+    margin-left: 35px;
+    font-size: 18px;
+    color: hsl(236, 13%, 42%);
+}
+
+.nav li:hover {
+    color: hsl(5, 85%, 63%);
+    cursor: pointer;
+}
+
+@media (max-width: 375px) {
+    .nav {
+        margin-left: 0;
+        margin-top: 70px;
+        flex-direction: column;
+    }
+
+    .nav li {
+        color: hsl(240, 100%, 5%);
+        margin-bottom: 30px;
+    }
+}

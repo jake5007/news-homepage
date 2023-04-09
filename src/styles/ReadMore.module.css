@@ -1,0 +1,21 @@
+p {
+    color: hsl(236, 13%, 42%);
+    line-height: 150%;
+    max-width: 95%;
+}
+
+button {
+    margin-top: 30px;
+    padding: 15px;
+    width: 180px;
+    border: none;
+    letter-spacing: 0.2em;
+    color: hsl(36, 100%, 99%);
+    background-color: hsl(5, 85%, 63%);
+    font-weight: 700;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: hsl(240, 100%, 5%);
+}

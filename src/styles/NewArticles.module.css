@@ -1,0 +1,32 @@
+.container {
+    grid-row: 1 / 3;
+}
+
+.dark_container {
+    background-color: hsl(240, 100%, 5%);
+    padding: 30px 35px;
+    height: auto;
+}
+
+.container h5 {
+    font-size: 35px;
+    color: hsl(35, 77%, 62%);
+    margin-bottom: 30px;
+}
+
+.divider {
+    margin: 25px 0;
+    width: 100%;
+    height: 1px;
+    background-color: hsl(236, 13%, 42%);
+}
+
+@media (max-width: 375px) {
+    .container {
+        grid-row: auto;
+    }
+
+    .dark_container {
+        padding: 20px;
+    }
+}
