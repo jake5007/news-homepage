@@ -9,6 +9,13 @@ Users should be able to:
 - View the optimal layout for the interface depending on their device's screen size
 - See hover and focus states for all interactive elements on the page
 
+### Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
 ### Screenshot
 
 ![preview_desktop](https://user-images.githubusercontent.com/44399233/230831658-a3e03cd9-fe31-4410-96e9-c53a18a7f41e.png)
@@ -25,9 +32,4 @@ Users should be able to:
 - CSS Grid
 - [React](https://reactjs.org/) - JS library
 
-## Layout
 
-The designs were created to the following widths:
-
-- Mobile: 375px
-- Desktop: 1440px
